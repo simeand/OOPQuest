@@ -18,11 +18,11 @@ public class Wilder {
         this.isPresent = isPresent;
     }
 
-    public String  whoAmI() {
-        if (this.isPresent == true) {
-            return "My name is " + this.firstName + " and I am present" ;
+    public void  whoAmI() {
+        if (isPresent) {
+            System.out.println("My name is " + this.firstName + " and I am present");
         } else  {
-            return "My name is " + this.firstName + " and I am not present" ;
+            System.out.println("My name is " + this.firstName + " and I am not present");
         }
     }
 }
