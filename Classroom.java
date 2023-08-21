@@ -1,4 +1,4 @@
-public class Classroom extends Wilder{
+public class Classroom{
     public static void main(String[] args) {
         Wilder student1 = new Wilder();
         student1.setFirstName("Mark");
