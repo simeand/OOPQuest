@@ -8,8 +8,8 @@ public class Classroom extends Wilder{
         student2.setFirstName("Musk");
         student2.setIsPresent(false);
 
-        System.out.println(student1.whoAmI());
-        System.out.println(student2.whoAmI());
+        student1.whoAmI();
+        student2.whoAmI();
     }
 }
 
